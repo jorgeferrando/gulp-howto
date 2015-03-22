@@ -1,0 +1,7 @@
+.sample-style {
+  -webkit-transform-origin: center bottom;
+          transform-origin: center bottom;
+}
+.sample-style .caca {
+  text-align: left;
+}

@@ -1,0 +1,20 @@
+{
+  "name": "cybea",
+  "version": "0.0.0",
+  "homepage": "https://github.com/jorgeferrando/cybea",
+  "authors": [
+    "jorge <jorgeparent@hotmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "~1.3.15",
+    "bootstrap": "~3.3.4"
+  }
+}
