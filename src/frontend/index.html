@@ -2,22 +2,33 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
+    <!-- build:css css/lib.css -->
     <!-- bower:css -->
     <link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.css" />
     <!-- endbower -->
-
+    <!-- endbuild -->
+    <!-- build:css css/app.css -->
     <!-- inject:css -->
-    <link rel="stylesheet" href="/.tmp/aaa.css">
     <!-- endinject -->
+    <!-- endbuild -->
 </head>
-<body>
+<body class="sample-style">
+    <p class="caca">Index.html rendered</p>
+    <!-- build:js js/lib.js -->
     <!-- bower:js -->
     <script src="/bower_components/jquery/dist/jquery.js"></script>
     <script src="/bower_components/angular/angular.js"></script>
     <script src="/bower_components/bootstrap/dist/js/bootstrap.js"></script>
     <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:js js/app.js -->
     <!-- inject:js -->
     <script src="/src/frontend/app.js"></script>
     <!-- endinject -->
+
+    <!-- inject:templates:js -->
+    <!-- endinject -->
+
+    <!-- endbuild -->
 </body>
 </html>
